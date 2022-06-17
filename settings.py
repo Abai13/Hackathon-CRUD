@@ -1,8 +1,8 @@
 class Settings:
     """A class to store all settings for AirTable."""
     TOKEN: dict = {'Authorization': 'Bearer keyeMyDjXvb7qDruk',"Content-Type": "application/json" }
-    TOKEN_DEL = 'Bearer keyeMyDjXvb7qDruk'
-    TABLE_NAME: str = 'Car salon' 
+    TOKEN_UNI = 'Bearer keyeMyDjXvb7qDruk'
+    TABLE_NAME: str = 'Cars' 
     BASE_ID: str = 'appBIIgBUC1fkOEgB' 
 
     LIST_RECORDS_URL: str = f'?maxRecords=3&view=Grid%20view'
