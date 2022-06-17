@@ -1,7 +1,4 @@
 from crud1 import Car
-import requests
-
-
 
 crud = Car()
 # print(crud.listing_records()) #работает
