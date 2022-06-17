@@ -27,8 +27,10 @@ class Car():
     #лист машин
     def listing_records(self):
         print('List of car')
-        req = requests.get(settings.get_url + settings.LIST_RECORDS_URL, headers=settings.TOKEN)
-        return req.json()
+        req = requests.get(
+            settings.get_url,
+            headers={'Authorization': settings.TOKEN_UNI})
+        return req.text
 
     #информация об одной машине по id
     def retrieve_record(self):
@@ -63,7 +65,7 @@ class Car():
         id_ = input('Введите id для удаленние информации o машине: ')
         req = requests.delete(
         settings.get_url + f'/{id_}', 
-        headers={'Authorization': settings.TOKEN_DEL}, 
+        headers={'Authorization': settings.TOKEN_UNI}, 
         data=f'records[]={id_}')
         print('Car is deleting')
         return req.json()    
