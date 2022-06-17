@@ -1,5 +1,5 @@
 class Settings:
-    """A class to store all settings for AirTable."""
+    
     TOKEN: dict = {'Authorization': 'Bearer keyeMyDjXvb7qDruk',"Content-Type": "application/json" }
     TOKEN_UNI = 'Bearer keyeMyDjXvb7qDruk'
     TABLE_NAME: str = 'Cars' 
