@@ -18,5 +18,5 @@ pip install <name_of_lib> - устонавить библиотеку напря
 
 pip install requests - скачать requests
 
-#keyeMyDjXvb7qDruk 
+# keyeMyDjXvb7qDruk 
 """
