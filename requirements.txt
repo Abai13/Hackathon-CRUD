@@ -1,0 +1,22 @@
+Библиотека:
+
+requests - pip install requests
+import json 
+from pyairtable import Table
+"""
+python -m venv <name_of_venv> - создание виртульного окружения
+
+создать .gitignore - внутри указать нежелательные для githuba файлы
+
+source <name_of_venv>/bin/activate - активация виртуального окружения 
+
+создать requirements.txt - записать в него библеотеки , используемые в проекте
+
+pip install -r requirments.txt - устоновить библеотеки записанные в файле
+
+pip install <name_of_lib> - устонавить библиотеку напрямую
+
+pip install requests - скачать requests
+
+#keyeMyDjXvb7qDruk 
+"""
